@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/crypto"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/crypto"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/ackhandler"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/handshake"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/wire"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/ackhandler"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/handshake"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/wire"
 )
 
 type packedPacket struct {

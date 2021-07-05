@@ -3,7 +3,7 @@ package h2quic
 import (
 	"io"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
 )
 
 type requestBody struct {

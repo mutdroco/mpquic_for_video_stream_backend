@@ -7,7 +7,7 @@ import (
 	"crypto/tls"
 	"reflect"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/testdata"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/testdata"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

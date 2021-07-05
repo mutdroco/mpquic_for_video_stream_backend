@@ -90,6 +90,6 @@ func readLoggingEnv() {
 	case "error":
 		logLevel = LogLevelError
 	default:
-		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/mutdroco/mpquic_nonml_for_video_stream_backend/wiki/Logging")
+		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/mutdroco/mpquic_for_video_stream_backend/wiki/Logging")
 	}
 }

@@ -3,7 +3,7 @@ package chrome_test
 import (
 	"fmt"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 
 	. "github.com/onsi/ginkgo"
 )

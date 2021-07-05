@@ -1,6 +1,6 @@
 package crypto
 
-import "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+import "github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 
 // NewNullAEAD creates a NullAEAD
 func NewNullAEAD(p protocol.Perspective, v protocol.VersionNumber) AEAD {

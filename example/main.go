@@ -17,9 +17,9 @@ import (
 
 	_ "net/http/pprof"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/h2quic"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/h2quic"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 )
 
 type binds []string

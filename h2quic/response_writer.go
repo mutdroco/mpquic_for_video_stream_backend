@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 )

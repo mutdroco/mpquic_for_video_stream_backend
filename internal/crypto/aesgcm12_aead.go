@@ -7,7 +7,7 @@ import (
 
 	"github.com/lucas-clemente/aes12"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 )
 
 type aeadAESGCM12 struct {

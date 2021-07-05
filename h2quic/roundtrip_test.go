@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

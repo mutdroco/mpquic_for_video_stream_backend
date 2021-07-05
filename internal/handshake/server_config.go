@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/rand"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/crypto"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/crypto"
 )
 
 // ServerConfig is a server config

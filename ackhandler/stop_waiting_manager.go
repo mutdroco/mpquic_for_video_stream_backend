@@ -1,8 +1,8 @@
 package ackhandler
 
 import (
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/wire"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/wire"
 )
 
 // This stopWaitingManager is not supposed to satisfy the StopWaitingManager interface, which is a remnant of the legacy AckHandler, and should be remove once we drop support for QUIC 33

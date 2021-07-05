@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/h2quic"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testserver"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/h2quic"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testserver"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

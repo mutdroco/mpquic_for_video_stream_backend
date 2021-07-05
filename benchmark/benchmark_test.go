@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"net"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	_ "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testlog"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/testdata"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	_ "github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testlog"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/testdata"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -14,11 +14,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testserver"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testserver"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 
-	_ "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testlog"
+	_ "github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testlog"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

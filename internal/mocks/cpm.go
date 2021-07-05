@@ -6,8 +6,8 @@ package mocks
 import (
 	time "time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/handshake"
-	protocol "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/handshake"
+	protocol "github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 	gomock "github.com/golang/mock/gomock"
 )
 

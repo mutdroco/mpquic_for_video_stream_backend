@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+import "github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 
 // ByteInterval is an interval from one ByteCount to the other
 // +gen linkedlist

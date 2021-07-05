@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 )
 
 // GenerateConnectionID generates a connection ID using cryptographic random

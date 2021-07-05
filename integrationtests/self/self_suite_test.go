@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	_ "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testlog"
+	_ "github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testlog"
 
 	"testing"
 )

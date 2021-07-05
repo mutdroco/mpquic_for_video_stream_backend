@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/handshake"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/handshake"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 )
 
 // The StreamID is the ID of a QUIC stream.

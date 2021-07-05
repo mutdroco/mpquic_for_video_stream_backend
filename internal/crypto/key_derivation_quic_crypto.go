@@ -5,8 +5,8 @@ import (
 	"crypto/sha256"
 	"io"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 
 	"golang.org/x/crypto/hkdf"
 )

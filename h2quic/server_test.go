@@ -6,7 +6,7 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/constants"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/constants"
 	"io"
 	"net"
 	"net/http"
@@ -18,10 +18,10 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/testdata"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/qerr"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/testdata"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/qerr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

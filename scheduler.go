@@ -10,12 +10,12 @@ import (
 
 	"gonum.org/v1/gonum/mat"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/ackhandler"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/constants"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/wire"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/util"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/ackhandler"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/constants"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/wire"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/util"
 )
 
 const banditAlpha = 0.75

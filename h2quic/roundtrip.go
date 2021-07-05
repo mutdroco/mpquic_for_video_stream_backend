@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
 
 	"golang.org/x/net/http/httpguts"
 )

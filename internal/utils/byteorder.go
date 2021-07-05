@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 )
 
 // A ByteOrder specifies how to convert byte sequences into 16-, 32-, or 64-bit unsigned integers.

@@ -4,8 +4,8 @@
 package mocks_fc
 
 import (
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/flowcontrol"
-	protocol "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/flowcontrol"
+	protocol "github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 	gomock "github.com/golang/mock/gomock"
 )
 

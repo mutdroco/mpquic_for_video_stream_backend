@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	_ "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testlog"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testserver"
+	_ "github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testlog"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testserver"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

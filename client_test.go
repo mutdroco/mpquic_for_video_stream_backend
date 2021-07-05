@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/wire"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/qerr"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/wire"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/qerr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

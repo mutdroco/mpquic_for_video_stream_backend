@@ -3,9 +3,9 @@ package handshake
 import (
 	"fmt"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/crypto"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/testdata"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/crypto"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/testdata"
 	"github.com/bifurcation/mint"
 
 	. "github.com/onsi/ginkgo"

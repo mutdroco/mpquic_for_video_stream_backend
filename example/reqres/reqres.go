@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	quic "github.com/mutdroco/mpquic_nonml_for_video_stream_backend"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+	quic "github.com/mutdroco/mpquic_for_video_stream_backend"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 )
 
 var addr = "localhost:4242"

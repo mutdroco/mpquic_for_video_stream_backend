@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"math"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/ackhandler"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/congestion"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/handshake"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/mocks"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/wire"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/ackhandler"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/congestion"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/handshake"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/mocks"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/wire"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

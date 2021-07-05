@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/proxy"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/integrationtests/tools/testserver"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/proxy"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/integrationtests/tools/testserver"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 	_ "github.com/lucas-clemente/quic-clients" // download clients
 
 	. "github.com/onsi/ginkgo"

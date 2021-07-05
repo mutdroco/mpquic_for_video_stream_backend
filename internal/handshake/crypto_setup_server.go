@@ -9,10 +9,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/crypto"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
-	"github.com/mutdroco/mpquic_nonml_for_video_stream_backend/qerr"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/crypto"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
+	"github.com/mutdroco/mpquic_for_video_stream_backend/qerr"
 )
 
 // QuicCryptoKeyDerivationFunction is used for key derivation

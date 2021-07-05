@@ -1,6 +1,6 @@
 package wire
 
-import "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/utils"
+import "github.com/mutdroco/mpquic_for_video_stream_backend/internal/utils"
 
 // LogFrame logs a frame, either sent or received
 func LogFrame(frame Frame, sent bool) {

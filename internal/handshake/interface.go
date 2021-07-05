@@ -1,6 +1,6 @@
 package handshake
 
-import "github.com/mutdroco/mpquic_nonml_for_video_stream_backend/internal/protocol"
+import "github.com/mutdroco/mpquic_for_video_stream_backend/internal/protocol"
 
 // Sealer seals a packet
 type Sealer interface {

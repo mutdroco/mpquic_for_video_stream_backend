@@ -2,13 +2,13 @@
 
 **Inspired and based on: https://multipath-quic.org/2017/12/09/artifacts-available.html**
 
-mpquic_nonml_for_video_stream_backend is a multipath implementation of the [quic-go](https://github.com/lucas-clemente/quic-go) protocol
+mpquic_for_video_stream_backend is a multipath implementation of the [quic-go](https://github.com/lucas-clemente/quic-go) protocol
 
 ## Roadmap
 - Implement different Machine Learning based Schedulers
 - _DONE_: Make this completely standalone, so that anyone can import this library without manual
 
-This version of mpquic_nonml_for_video_stream_backend is not dependent on quic-go, and can be installed as a standalone package
+This version of mpquic_for_video_stream_backend is not dependent on quic-go, and can be installed as a standalone package
 
 ### Pre-Requisites
 
@@ -55,13 +55,13 @@ Running tests:
 
 ## Example Implementation
 
-An application that does File Transfer using mpquic_nonml_for_video_stream_backend has been shown at [MPQUIC-FTP](https://github.com/mutdroco/mpquic_ftp)
+An application that does File Transfer using mpquic_for_video_stream_backend has been shown at [MPQUIC-FTP](https://github.com/mutdroco/mpquic_ftp)
 
 In case of any issue accessing it, please reach out to repository owner
 
 ## Contributing
 
-We are always happy to welcome new contributors! We have a number of self-contained issues that are suitable for first-time contributors, they are tagged with [want-help](https://github.com/mutdroco/mpquic_nonml_for_video_stream_backend/issues?q=is%3Aopen+is%3Aissue+label%3Awant-help). If you have any questions, please feel free to reach out by opening an issue or leaving a comment.
+We are always happy to welcome new contributors! We have a number of self-contained issues that are suitable for first-time contributors, they are tagged with [want-help](https://github.com/mutdroco/mpquic_for_video_stream_backend/issues?q=is%3Aopen+is%3Aissue+label%3Awant-help). If you have any questions, please feel free to reach out by opening an issue or leaving a comment.
 
 ## Acknowledgment
-- Thanks to [Qdeconinck](https://github.com/qdeconinck/mpquic_nonml_for_video_stream_backend) for starting this amazing work
+- Thanks to [Qdeconinck](https://github.com/qdeconinck/mpquic_for_video_stream_backend) for starting this amazing work
