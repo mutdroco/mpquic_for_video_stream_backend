@@ -1,0 +1,70 @@
+version: "{build}"
+ckhandler
+
+ckhandler
+os: Windows Server 2012 R2
+ckhandler
+
+ckhandler
+environment:
+ckhandler
+  GOPATH: c:\gopath
+ckhandler
+  CGO_ENABLED: 0
+ckhandler
+  TIMESCALE_FACTOR: 20
+ckhandler
+  matrix:
+ckhandler
+    - GOARCH: 386
+ckhandler
+    - GOARCH: amd64
+ckhandler
+
+ckhandler
+clone_folder: c:\gopath\src\github.com\lucas-clemente\quic-go
+ckhandler
+
+ckhandler
+install:
+ckhandler
+  - rmdir c:\go /s /q
+ckhandler
+  - appveyor DownloadFile https://storage.googleapis.com/golang/go1.9.windows-amd64.zip
+ckhandler
+  - 7z x go1.9.windows-amd64.zip -y -oC:\ > NUL
+ckhandler
+  - set PATH=%PATH%;%GOPATH%\bin\windows_%GOARCH%;%GOPATH%\bin
+ckhandler
+  - echo %PATH%
+ckhandler
+  - echo %GOPATH%
+ckhandler
+  - git submodule update --init --recursive
+ckhandler
+  - go get github.com/onsi/ginkgo/ginkgo
+ckhandler
+  - go get github.com/onsi/gomega
+ckhandler
+  - go version
+ckhandler
+  - go env
+ckhandler
+  - go get -v -t ./...
+ckhandler
+
+ckhandler
+build_script:
+ckhandler
+  - ginkgo -r -v -randomizeAllSpecs -randomizeSuites -trace -skipPackage benchmark,integrationtests
+ckhandler
+  - ginkgo -randomizeAllSpecs -randomizeSuites -trace benchmark -- -samples=1
+ckhandler
+
+ckhandler
+test: off
+ckhandler
+
+ckhandler
+deploy: off
+ckhandler
